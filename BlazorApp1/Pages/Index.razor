@@ -1,0 +1,33 @@
+﻿@page "/"
+@using BlazorApp1.ChartConfigs
+
+<div class="row">
+    <div class="col" style="height: 250px">
+        <RawChartJS Id="MyFirstLine" Config="@(ChartConfigs.MyFirstLine.Config)" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col" style="height: 250px">
+        <RawChartJS Id="MultiAxis" Config="@(ChartConfigs.MultiAxis.Config)" />
+    </div>
+</div>
+
+<div class="row" style="height: 250px">
+    <div class="col">
+        <RawChartJS Id="RentRoll" Config="@(ChartConfigs.RentRoll.Config)" />
+    </div>
+</div>
+
+<div class="row" style="height: 250px">
+    <div class="col">
+        <RawChartJS Id="CashFlowH" Config="@(ChartConfigs.CashFlowH.Config)" />
+    </div>
+</div>
+
+<div class="row" style="height: 250px">
+    <div class="col">
+        <RawChartJS Id="CashFlowM" Config="@(ChartConfigs.CashFlowM.Config)" />
+    </div>
+</div>
+
