@@ -128,4 +128,6 @@ The `maintainAspectRatio = false,` option is important for the semi responsive r
 </div>
 ```
 
+A blog post on why [here](https://brownbot.com/2022/03/08/using-chart-js-within-a-blazor-wasm-project/). 
+
 Happy charting!
